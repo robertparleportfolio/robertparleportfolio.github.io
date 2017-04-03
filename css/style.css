@@ -1,0 +1,106 @@
+/*
+*  Some simple styles for the site
+*/
+
+.border-bottom {
+  border-bottom: solid #ff0000;
+}
+
+/*.active {
+  border-bottom: solid #ff0000;
+}
+*/
+* {
+  font-family: Tahoma;
+}
+
+body {
+  font-family: Tahoma;
+}
+
+.navbar-default {
+  background-color: #11211a;
+  border-bottom: solid #0c1813;
+  border-top: solid #0c1813;
+}
+
+.navbar-default .navbar-brand  {
+  color: #ffffff;
+}
+
+.border-right {
+  border-right: solid #0c1813;
+  border-left: solid #0c1813;
+}
+
+.navbar-default .navbar-brand:hover  {
+  color: #ffffff;
+}
+
+.liactive {
+  color: #ffffff;
+  background-color: #0c1813;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #ffffff;
+  border-left: solid #0c1813;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #ffffff;
+  background-color: #0c1813;
+}
+.navbar-default .navbar-nav .navbar-right li a:hover {
+  color: #ffffff;
+  background-color: #082581;
+  border-right: solid red;
+}
+
+.navbar-default .navbar-text {
+  color: white;
+}
+
+.navbar .navbar-default .navbar-fixed-bottom {
+  border-top: solid black;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #07205d;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #0c1813;
+}
+
+/* For the Google Maps API styling */
+#map {
+  height: 350px;
+  width: 100%;
+  background-color: grey;
+  /* Until I fix the footer code */
+  margin-bottom: 100px;
+}
+
+footer {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  color: white;
+}
+
+
+.navbar-fixed-bottom {
+  position: static;
+}
+
+.homeimg {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.contact {
+  list-style-type: none;
+}
